@@ -1,0 +1,25 @@
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+header,
+main {
+  text-align: center;
+}
+
+header {
+  color: #ddd;
+}
+
+button {
+  border: 0;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  padding: 20px;
+}
+
+span {
+  background-color: #666;
+  padding: 4px 20px;
+}
