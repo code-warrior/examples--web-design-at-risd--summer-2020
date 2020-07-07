@@ -1,0 +1,13 @@
+/*
+  body — Selector
+  { — Left curly brace that opens the CSS rule
+  background-color — value
+  yellow — Property value
+  ; — Statement terminator
+  background-color: yellow; — Declaration
+  } — Right curly brace that closes the CSS rule
+  {...} — The entire CSS rule
+ */
+body {
+  background-color: yellow;
+}
