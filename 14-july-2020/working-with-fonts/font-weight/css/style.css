@@ -1,0 +1,39 @@
+body {
+  font-family: "Gill Sans", sans-serif;
+}
+
+p:first-of-type {
+  font-weight: 100;
+}
+
+p:nth-child(2) {
+  font-weight: 200;
+}
+
+p:nth-child(3) {
+  font-weight: 300;
+}
+
+p:nth-child(4) {
+  font-weight: 400;
+}
+
+p:nth-child(5) {
+  font-weight: 500;
+}
+
+p:nth-child(6) {
+  font-weight: 600;
+}
+
+p:nth-child(7) {
+  font-weight: 700;
+}
+
+p:nth-child(8) {
+  font-weight: 800;
+}
+
+p:last-of-type {
+  font-weight: 900;
+}
