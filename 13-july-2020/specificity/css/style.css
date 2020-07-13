@@ -1,0 +1,84 @@
+/*
+IDs:                                     1, 0, 0
+Classes, attributes, and pseudo-classes: 0, 1, 0
+Elements:                                0, 0, 1
+Combinators:                             0, 0, 0
+*/
+nav ul {
+  list-style-type: none;
+}
+
+/*
+IDs:                                     0, 0, 0
+Classes, attributes, and pseudo-classes: 0, 0, 0
+Elements:                                0, 0, 3
+Specificity:                             0, 0, 3
+*/
+header + nav ul {
+  list-style-type: none;
+}
+
+/*
+Specificity:                             0, 0, 3
+*/
+nav > ul > li {
+  color: blue;
+}
+
+/*
+Specificity:                             0, 0, 2
+*/
+blockquote ~ ol {
+  border: 3px solid grey;
+}
+
+/*
+IDs:                                     0, 0, 0
+Classes, attributes, and pseudo-classes: 0, 0, 0
+Elements:                                0, 0, 1
+Specificity:                             0, 0, 1
+*/
+ol {
+  background-color: yellow;
+}
+
+/*
+IDs:                                     1, 0, 0
+Classes, attributes, and pseudo-classes: 0, 0, 0
+Elements:                                0, 0, 0
+Specificity:                             1, 0, 0
+*/
+#unique {
+  background-color: purple;
+}
+
+/*
+IDs:                                     0, 0, 0
+Classes, attributes, and pseudo-classes: 0, 1, 0
+Elements:                                0, 0, 0
+Specificity:                             0, 1, 0
+*/
+.first-list {
+  background-color: grey;
+}
+
+/*
+IDs:                                     0, 0, 0
+Classes, attributes, and pseudo-classes: 0, 1, 0
+Elements:                                0, 0, 1
+Specificity:                             0, 1, 1
+*/
+ul.first-list {
+  background-color: pink;
+}
+
+/*
+IDs:                                     1, 0, 0
+Classes, attributes, and pseudo-classes: 0, 2, 0
+Elements:                                0, 0, 5
+Specificity:                             1, 2, 5
+*/
+header + nav + main.filler.more-filler > #unique > li + li {
+  border-radius: 30px;
+  border: 1px solid green;
+}
