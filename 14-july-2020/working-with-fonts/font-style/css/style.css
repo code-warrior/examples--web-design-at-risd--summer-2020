@@ -1,0 +1,4 @@
+/* Target the second paragraph child of main */
+main > p:last-of-type {
+  font-style: italic;
+}
