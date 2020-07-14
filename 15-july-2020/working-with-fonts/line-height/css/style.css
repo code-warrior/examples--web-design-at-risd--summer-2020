@@ -1,0 +1,6 @@
+/* line-height in Firefox is 1.2 (19.2px) */
+/* line-height in Chrome is 1.125 (18px) */
+
+p {
+  line-height: 1;
+}
