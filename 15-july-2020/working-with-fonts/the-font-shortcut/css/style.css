@@ -1,0 +1,10 @@
+body {
+  font-style: italic;
+  font-variant: small-caps;
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 1.4;
+  font-family: 'Gill Sans', sans-serif;
+
+  font: italic small-caps 700 1.2rem / 1.4 'Gill Sans', sans-serif;
+}
