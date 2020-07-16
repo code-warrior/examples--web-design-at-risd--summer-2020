@@ -1,0 +1,14 @@
+/*
+  Margins are shared.
+  Margins can be taken negative.
+  Padding is not shared.
+  Padding cannot be taken negative.
+*/
+
+/* Cancel all margins, border, and padding from every element, then set all content solid */
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  line-height: 1;
+}
