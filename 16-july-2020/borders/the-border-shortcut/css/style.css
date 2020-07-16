@@ -1,0 +1,40 @@
+/*
+  We’re So Cool: WSC: Width, Style, Color
+*/
+p {
+  background-color: pink;
+  border-top-width: 20px;
+  border-right-width: 30px;
+  border-bottom-width: 40px;
+  border-left-width: 50px;
+
+  border-top-style: dashed;
+  border-right-style: dotted;
+  border-bottom-style: groove;
+  border-left-style: double;
+
+  border-top-color: red;
+  border-right-color: green;
+  border-bottom-color: purple;
+  border-left-color: black;
+}
+
+p {
+  border-top-width: 20px;
+  border-right-width: 20px;
+  border-bottom-width: 20px;
+  border-left-width: 20px;
+
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+
+  border-top-color: blue;
+  border-right-color: blue;
+  border-bottom-color: blue;
+  border-left-color: blue;
+
+  border: 20px solid red;
+  border: 0;
+}
