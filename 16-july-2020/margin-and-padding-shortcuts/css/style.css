@@ -1,0 +1,47 @@
+/*
+  TRouBLe or TReBLe: Top, right, bottom, and left
+*/
+header {
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  margin-left: 40px;
+
+  margin: 10px 20px 30px 40px;
+}
+
+header {
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+
+  margin: 10px 20px 30px;
+}
+
+header {
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+
+  margin: 10px 20px;
+}
+
+header {
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+
+  margin: 10px;
+}
+
+header {
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+
+  padding: 0;
+}
