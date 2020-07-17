@@ -1,3 +1,4 @@
 span {
-  letter-spacing: -.125rem;
+  /* Faux kerning */
+  letter-spacing: -.125rem; /* 2px = 2/16 = .125rem; */
 }
