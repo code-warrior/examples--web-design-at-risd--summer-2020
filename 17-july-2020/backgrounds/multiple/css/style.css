@@ -1,0 +1,28 @@
+html,
+body,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: rgb(0, 120, 255);
+  text-decoration: none;
+}
+
+span {
+  background-color: rgba(30, 75, 115, .8);
+  color: white;
+  display: inline-block;
+  line-height: 1.4;
+  padding: 20px;
+}
+
+div {
+  background:
+    linear-gradient(to right, rgba(30, 75, 115, 1), rgba(255, 255, 255, 0)) no-repeat left,
+    url('https://mdn.mozillademos.org/files/11307/bubbles.png') no-repeat left center / cover,
+    url('https://mdn.mozillademos.org/files/11305/firefox.png') no-repeat bottom right,
+    transparent;
+  height: 100vh;
+}
