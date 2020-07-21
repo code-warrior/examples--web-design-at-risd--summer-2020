@@ -6,29 +6,3 @@ body {
   margin: auto;
   width: 960px;
 }
-
-h1 {
-  font-size: 1.9rem;
-  text-align: center;
-  font-family: 'Yeseva One', cursive;
-}
-
-div {
-  display: flex;
-  margin-bottom: 26px;
-}
-
-th {
-  text-align: left;
-  padding-right: 6px;
-}
-
-a {
-  text-decoration: none;
-  transition: 350ms;
-}
-
-a:hover {
-  background-color: #eee;
-  border-radius: 2px;
-}

@@ -1,0 +1,9 @@
+a {
+  text-decoration: none;
+  transition: 350ms;
+}
+
+a:hover {
+  background-color: #eee;
+  border-radius: 2px;
+}
