@@ -1,0 +1,39 @@
+body {
+  font-family: 'Work Sans', sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+blockquote {
+  hanging-punctuation: first;
+}
+
+blockquote::before {
+  content: '“';
+}
+
+blockquote::after {
+  content: '”';
+}
+
+cite {
+  margin-left: 40px;
+}
+
+cite::before {
+  content: '— ';
+}
+
+main {
+  margin: auto;
+  display: flex;
+  width: 90%;
+}
+
+.quote {
+  background: linear-gradient(to top, #b9adec, #efdbee);
+  width: 33%;
+  padding: 20px 0 36px;
+}
