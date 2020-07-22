@@ -5,6 +5,7 @@
   Flow: Not broken
   Parent: Scrollable ancestor
   Offset properties (top, right, bottom, left): Observed
+  Scrolls: Yes and no
 */
 
 body {
