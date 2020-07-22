@@ -1,0 +1,28 @@
+/*
+  Position: sticky
+
+  Stacking Context (z-index): Observed
+  Flow: Not broken
+  Parent: Scrollable ancestor
+  Offset properties (top, right, bottom, left): Observed
+*/
+
+body {
+  margin: auto;
+  width: 400px;
+  height: 200vh;
+}
+
+header {
+  background-color: pink;
+  text-align: center;
+  line-height: 5rem;
+}
+
+h2 {
+  background-color: white;
+  border: 1px solid pink;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+}
