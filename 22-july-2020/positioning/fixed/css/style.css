@@ -1,0 +1,28 @@
+/*
+  Position: fixed
+
+  Stacking Context (z-index): Observed
+  Flow: Broken
+  Parent: Viewport
+  Offset properties (top, right, bottom, left): Observed
+*/
+
+body {
+  margin: auto;
+  width: 400px;
+  height: 200vh;
+}
+
+nav {
+  background-color: grey;
+  position: fixed;
+  top: calc(50% - 100px);
+  left: 0;
+  padding-top: 71px;
+  padding-bottom: 71px;
+  width: 200px;
+}
+
+nav ul {
+  list-style-type: none;
+}
