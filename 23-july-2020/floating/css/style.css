@@ -1,0 +1,38 @@
+body {
+  font-family: Lora, serif;
+  color: #222;
+  margin: auto;
+  width: 60%;
+}
+
+p {
+  margin: 20px 0;
+}
+
+.pull-left {
+  position: relative;
+  font-style: italic;
+  background-image: radial-gradient(rgba(120, 120, 120, .15) 10%, white);
+  float: left;
+  width: 200px;
+  margin: 6px 30px 10px -120px;
+  padding: 26px 30px;
+}
+
+/* .pull-left::before,
+.pull-left::after {
+  position: absolute;
+  font-size: 3rem;
+}
+
+.pull-left::before {
+  content: '“';
+  top: -3px;
+  left: 8px;
+}
+
+.pull-left::after {
+  content: '”';
+  bottom: -26px;
+  right: 13px;
+} */
