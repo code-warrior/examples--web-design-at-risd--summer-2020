@@ -1,0 +1,33 @@
+body {
+  border: 10px solid transparent;
+}
+
+@media (min-width: 1025px) {
+  body {
+    border-color: pink;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  body {
+    border-color: blue;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  body {
+    border-color: green;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  body {
+    border-color: red;
+  }
+}
+
+@media (max-width: 319px) {
+  body {
+    border-color: rebeccapurple;
+  }
+}
