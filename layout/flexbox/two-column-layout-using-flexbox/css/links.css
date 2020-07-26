@@ -1,0 +1,19 @@
+a {
+  transition: 350ms;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  color: brown;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: overline;
+}

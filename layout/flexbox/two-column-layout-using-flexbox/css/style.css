@@ -1,0 +1,43 @@
+/* Styles applied across all breakpoints. */
+body {
+  font-family: Lato, sans-serif;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  margin: 24px 0;
+}
+
+.item {
+  position: relative;
+  width: 50%;
+  line-height: 0;
+}
+
+.item--image {
+  width: 100%;
+}
+
+.item--heading {
+  position: absolute;
+  top: 24px;
+  margin-right: 48px;
+  padding: 12px 24px;
+  background-color: rgba(255, 255, 255, .9);
+  line-height: 1.2;
+}
+
+.item--caption {
+  position: absolute;
+  bottom: 24px;
+  padding: 12px 24px;
+  background-color: rgba(255, 255, 255, .9);
+  line-height: 1;
+}
