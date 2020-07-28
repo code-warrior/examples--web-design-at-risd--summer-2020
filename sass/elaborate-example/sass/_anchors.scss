@@ -1,0 +1,12 @@
+a {
+  display: block;
+  width: $width--nav-item;
+  text-align: center;
+  text-decoration: none;
+  color: $color--nav-links;
+  line-height: $height--nav-item;
+}
+
+a:hover {
+  background-color: $color--bg--link-hover;
+}
