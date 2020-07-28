@@ -1,0 +1,9 @@
+body {
+  background-color: #bada55;
+}
+
+button {
+  border: 0;
+  padding: 12px;
+  box-shadow: 3px 3px 10px #aaa;
+}
