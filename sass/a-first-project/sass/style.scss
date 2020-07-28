@@ -1,0 +1,7 @@
+$color--main-text: #222;
+$border-color: green;
+
+body {
+  border: 1px solid $border-color;
+  color: $color--main-text;
+}
