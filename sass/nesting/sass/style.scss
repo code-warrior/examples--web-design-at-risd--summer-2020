@@ -1,0 +1,25 @@
+header {
+  h1 {
+    border: 1px solid black;
+
+    span {
+      font-size: 200%;
+    }
+  }
+}
+
+nav {
+  > ul {
+    color: blue;
+
+    > li {
+      color: purple;
+
+      > ul {
+        > li {
+          color: white;
+        }
+      }
+    }
+  }
+}
